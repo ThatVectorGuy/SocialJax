@@ -13,6 +13,9 @@ dependencies = [
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
+[tool.poetry]
+packages = [{include = "socialjax"}]
+
 [tool.poetry.group.dev.dependencies]
 absl-py = "2.1.0"
 antlr4-python3-runtime = "4.9.3"
